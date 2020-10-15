@@ -1,0 +1,6 @@
+opencv-python
+requests
+re
+numpy
+discord
+praw
