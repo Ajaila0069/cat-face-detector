@@ -8,8 +8,12 @@ This entire thing is a shitpost, so feel free to edit it as much as you want. I 
 
 ***To Run***
 
-Download and install Python 3.6\n
-Download and install pip3\n
-_optional : create aliases in ~/.bash_profile_\n
-Download all required libraries using ```pip install -r requirements.txt``` \n
+Download and install Python 3.6
+
+Download and install pip3
+
+_optional : create aliases in ~/.bash_profile_
+
+Download all required libraries using ```pip install -r requirements.txt```
+
 Navigate to the folder and run ```python3.6 cat_detector.py```
