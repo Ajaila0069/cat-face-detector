@@ -4,4 +4,12 @@ This repository was made to encourage transparency in our Discord server. Here i
 
 is what I would say if this were a serious bot.
 
-This entire thing is a shitpost, so feel free to edit it as much as you want. I haven't included my tokens here, so if you want to use the apis, you'll have to get your own.
+This entire thing is a shitpost, so feel free to edit it as much as you want. I haven't included my tokens here, so if you want to use the apis, you'll have to get your own. 
+
+***To Run***
+
+Download and install Python 3.6
+Download and install pip3
+_optional : create aliases in ~/.bash_profile_
+Download all required libraries using ```pip install -r requirements.txt``` 
+Navigate to the folder and run ```python3.6 cat_detector.py```
