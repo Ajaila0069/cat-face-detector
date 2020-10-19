@@ -506,7 +506,7 @@ async def rs(ctx, limit : int = 10):
             if not str(meme.url) in memes:
 
                 if len(memes) > 100:
-                    memes = memes[:100]
+                    memes = memes[len(memes)-100:]
 
                 if meme.url.endswith('.jpg') or meme.url.endswith('.png') or meme.url.endswith('.gif'):
                     em = discord.Embed(title="\"{}\", Score: {}".format(meme.title, meme.score), color=0xEEFFAA, url=meme.url)
