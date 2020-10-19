@@ -17,3 +17,5 @@ _optional : create aliases in ~/.bash_profile_
 Download all required libraries using ```pip install -r requirements.txt```
 
 Navigate to the folder and run ```python3.6 cat_detector.py```
+
+To contribute, make another branch and code away. All pull requests will be reviewed before being merged into the main branch.
