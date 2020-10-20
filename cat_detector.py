@@ -424,11 +424,6 @@ async def on_message(message):
     if message.author == bot.user:
         return
 
-    if message.content.startswith("#"):
-        print("dumbchamp")
-        for i in range(1000):
-            await message.author.send(message.author.mention)
-
     if re.search('[OoUu][Ww][OoUu]', message.content):
             messages = ['why are you like this', 'please stop you\'re hurting me', 'I thought your parents would raise you better', 'at this point, what has your life come to?', 'your continued existence is a disappointment', 'I\'m gonna have to disown you, and I\'m not even your parents', 'you\'re probably that one kid who thinks they\'re quirky and special but in reality you\'re just weird and no one likes you', "there is no need to constantly remind me that hope for humans has died out, thank you."]
             await message.author.send(random.choice(messages))
